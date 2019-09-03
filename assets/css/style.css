@@ -237,20 +237,15 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
   
   /* Set breakpoints at 980px, 768px, and 640px screen widths */
   
   @media only screen and (min-width: 980px) {
-  
-    .auth-image {
-        float: none;
-        width: 100%;
-      height: auto;
-    }
-  
-        body { 
-            margin: 0 auto; 
-        }
+
+     body { 
+          margin: 0 auto; 
+         }
   
     /* portfolio page - make the examples in one column */
   
@@ -282,8 +277,7 @@ body {
     .main-section {
         max-width: 100%
     }
-  
-  
+      
   }
   
   @media only screen and (max-width: 767px) and (min-width: 640px) {
@@ -303,7 +297,7 @@ body {
     .main-section {
         max-width: 100%
     }  
-  
+    
   }
   
   @media only screen and (max-width: 639px) {
