@@ -48,7 +48,7 @@ body {
     font-size: 22px;
   }
   
-  /* header */
+  /* MainHeader */
   
   .mainheader {
     position: fixed;
@@ -169,7 +169,7 @@ body {
     margin-right: 25px;
   }
   
-  .work {
+  .portimg {
     position: relative;
     float: left;
     width: 274px;
@@ -177,16 +177,16 @@ body {
     overflow: auto;
   }
   
-  .work:nth-child(even) {
+  .portimg:nth-child(even) {
     margin-right: 80px;
   }
   
-  .work img {
+  .portimg img {
     width: 100%;
     border: 0 none;
   }
   
-  .work h3 {
+  .portimg h3 {
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -254,12 +254,12 @@ body {
   
     /* portfolio page - make the examples in one column */
   
-    .work {
+    .portimg {
       float: none;
       width: 100%;
     }
   
-    .work:nth-child(even) {
+    .portimg:nth-child(even) {
       margin-right: 40px;
     }
   
